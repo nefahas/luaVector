@@ -2,19 +2,19 @@
 
 usage:
 
-local vector = require('vector.lua')
+	local vector = require('vector.lua')
 
-local v1 = vector.new(50, -25)
+	local v1 = vector.new(50, -25)
 
-local v2 = vector.new(25, 10)
+	local v2 = vector.new(25, 10)
 
-supports printing, and math operations directly onto vector
+	-- supports printing, and math operations directly onto vector
 
-print(v1) -> "50 -25"
+	print(v1) -> "50 -25"
 
-print(v1 - v2) -> "25 -35"
+	print(v1 - v2) -> "25 -35"
 
-print(v1 + v2) -> "75 -15"
+	print(v1 + v2) -> "75 -15"
 
 functions and types:
 
