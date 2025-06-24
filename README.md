@@ -18,7 +18,6 @@ print(v1 + v2) -> "75 -15"
 
 functions and types:
 
-Vector = {
 
 	x: number,
  
@@ -36,6 +35,4 @@ Vector = {
  
 	project: (Vector) -> (Vector, Vector), -- projection component, orthogonal component
  
-  cross: (Vector) -> number, -- scalar cross product
-  
-}
+  	cross: (Vector) -> number, -- scalar cross product
