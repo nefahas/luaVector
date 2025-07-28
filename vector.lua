@@ -14,7 +14,7 @@ export type Vector = {
 
 -- LuaU doesnt need this, but it isnt a standard math function
 math.clamp = function(a, min, max)
-	return math.max(a, math.min(min, max))
+	return math.max(min, math.min(a, max))
 end
 
 local Vector = {}
