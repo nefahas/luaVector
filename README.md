@@ -34,5 +34,3 @@ functions and types:
 	angle: (Vector) -> number, -- angle between v1 and v2
  
 	project: (Vector) -> (Vector, Vector), -- projection component, orthogonal component
- 
-  	cross: (Vector) -> number, -- scalar cross product
