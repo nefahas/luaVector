@@ -151,14 +151,6 @@ function Vector:normalize()
 	return Vector.new(nx, ny)
 end
 
--- scalar cross
-function Vector:cross(v2)
-  local x, y = self.x, self.y
-  local x2, y2 = v2.x, v2.y
-
-  return x * y2 - y * x2
-end
-
 function Vector.new(x, y)
 	local self = setmetatable({
 		x = x,
